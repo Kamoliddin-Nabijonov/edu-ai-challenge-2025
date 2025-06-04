@@ -1,0 +1,59 @@
+[Task 1] - Practicing Chain-of-Thought Reasoning
+
+
+TASK:
+You are selecting a database for a new application. 
+You have the following requirements:
+* Social platform with millions of users
+* Need to store profiles, posts, and connections between users
+* High data read speed required
+* Expected 80% read operations, 20% write operations
+* Scalability is important as the user base grows
+
+Using ChatGPT UI, DeepSeek, or any other conversational AI tool, craft a prompt that instructs the assistant to apply Chain-of-Thought (CoT) reasoning in order to:
+* Analyze a given set of project requirements
+* Justify and select the most suitable type of database for the project
+
+The AI's reasoning should be step-by-step and well-structured, clearly showing how the decision was made based on the requirements.
+
+
+PROMPT:
+
+I need help selecting the optimal database for a new social platform application. 
+Please use step-by-step reasoning to analyze this problem systematically.
+
+Context:
+We're building a social platform expected to scale to millions of users.
+
+Requirements:
+1. Store user profiles, posts, and social connections (friend/follow relationships)
+2. Handle 80% read operations, 20% write operations
+3. Sub-second response time for most queries
+4. Horizontal scalability as user base grows from 100K to 10M+ users
+5. Budget constraint: Prefer open-source or cost-effective solutions
+
+Task:
+Using Chain-of-Thought reasoning, please:
+
+Step 1: First, identify and categorize the main types of databases that could handle social network data (e.g., relational, document, graph, key-value). For each category, briefly explain why it might or might not fit our use case.
+
+Step 2: Based on Step 1, select the 3-4 most promising database categories and identify specific database options within each (e.g., PostgreSQL for relational, MongoDB for document, etc.).
+
+Step 3: For each database option from Step 2, evaluate against these criteria:
+- Data model fit for social network relationships
+- Read/write performance characteristics
+- Scalability approach (vertical vs horizontal)
+- Open source vs proprietary (with licensing costs)
+- Operational complexity and maintenance requirements
+- Community support and ecosystem maturity
+
+Step 4: Create a decision matrix comparing the top candidates, scoring each criterion on a scale of 1-5 with justification.
+
+Step 5: Consider hybrid approaches - would combining multiple databases (polyglot persistence) provide benefits? If so, which combinations and why?
+
+Step 6: Based on all previous analysis, recommend the optimal solution with:
+- Primary recommendation with detailed justification
+- Alternative recommendation if constraints change
+- Implementation considerations and potential challenges
+
+Please show your reasoning at each step, including why you're making specific choices and what trade-offs you're considering.
