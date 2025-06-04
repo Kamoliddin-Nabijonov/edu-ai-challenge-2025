@@ -1,0 +1,60 @@
+{
+    "summarization": {
+      "extractive_summary": "Remote work, also known as telecommuting, has become increasingly popular in recent years, particularly after the global pandemic forced many companies to adapt to flexible working arrangements. Employees often report higher job satisfaction due to the elimination of long commutes, increased flexibility in managing work-life balance, and the ability to work from the comfort of their homes. Many employees struggle with feelings of isolation and a lack of connection to their colleagues, which can negatively impact collaboration and team dynamics. Companies are exploring hybrid models that combine the benefits of in-office collaboration with the flexibility of remote work.",
+      "abstractive_summary": "Remote work has surged in popularity post-pandemic, offering benefits like improved work-life balance and reduced costs, but also presenting challenges such as employee isolation and productivity concerns. The future likely lies in hybrid models that balance flexibility with collaborative needs.",
+      "key_sentences": [
+        "Remote work has become increasingly popular in recent years",
+        "Employees often report higher job satisfaction",
+        "Many employees struggle with feelings of isolation",
+        "Companies are exploring hybrid models"
+      ]
+    },
+    "sentiment_analysis": {
+      "classification": "neutral",
+      "score": 0.2,
+      "confidence": 88,
+      "sentiment_breakdown": {
+        "positive_aspects": [
+          "Higher job satisfaction",
+          "Elimination of long commutes",
+          "Increased flexibility",
+          "Lower operational costs",
+          "Improved technology making remote work easier"
+        ],
+        "negative_aspects": [
+          "Feelings of isolation",
+          "Lack of connection to colleagues",
+          "Difficulty maintaining productivity",
+          "Blurred work-life boundaries",
+          "Challenges in monitoring performance"
+        ],
+        "neutral_aspects": [
+          "Remote work becoming more common",
+          "Companies adapting to new models",
+          "Technology improvements"
+        ]
+      }
+    },
+    "metadata": {
+      "word_count": 286,
+      "reading_time_minutes": 1.4,
+      "key_topics": [
+        "remote work",
+        "work-life balance",
+        "employee satisfaction",
+        "collaboration challenges",
+        "hybrid work models"
+      ],
+      "tone": "professional",
+      "document_type": "article",
+      "language": "English"
+    },
+    "processing_info": {
+      "timestamp": "2025-06-04T10:30:00Z",
+      "model_version": "ChatGPT",
+      "techniques_used": {
+        "summarization": ["extractive", "abstractive"],
+        "sentiment": "lexicon-based"
+      }
+    }
+  }
