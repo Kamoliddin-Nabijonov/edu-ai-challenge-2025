@@ -1,0 +1,21 @@
+{
+  "name": "sea-battle",
+  "version": "1.0.0",
+  "description": "A modernized Sea Battle (Battleship) game",
+  "main": "seabattle.js",
+  "scripts": {
+    "start": "node seabattle.js",
+    "test": "jest --coverage"
+  },
+  "keywords": [
+    "game",
+    "battleship",
+    "sea-battle",
+    "cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+} 
