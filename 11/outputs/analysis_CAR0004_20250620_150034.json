@@ -1,0 +1,28 @@
+{
+  "source_file": "CAR0004.mp3",
+  "generated_on": "2025-06-20 15:00:34",
+  "word_count": 982,
+  "speaking_speed_wpm": 150.0,
+  "frequently_mentioned_topics": [
+    {
+      "topic": "Chest Pain",
+      "mentions": 14
+    },
+    {
+      "topic": "Heart Attack",
+      "mentions": 7
+    },
+    {
+      "topic": "Symptoms",
+      "mentions": 10
+    },
+    {
+      "topic": "Medical History",
+      "mentions": 6
+    },
+    {
+      "topic": "Diagnostic Tests (ECG, blood work)",
+      "mentions": 4
+    }
+  ]
+}
